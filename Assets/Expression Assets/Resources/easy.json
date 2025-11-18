@@ -1,0 +1,94 @@
+{
+  "easy_questions": [
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "a + b * c",
+      "answer": "a b c * +"
+    },
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "d * ( e + f )",
+      "answer": "d e f + *"
+    },
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "( g - h ) / i",
+      "answer": "g h - i /"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "a + b * c",
+      "answer": "+ a * b c"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "d * ( e + f )",
+      "answer": "* d + e f"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "( g - h ) / i",
+      "answer": "/ - g h i"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "a b c * +",
+      "answer": "(a + (b * c))"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "d e f + *",
+      "answer": "(d * (e + f))"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "g h - i /",
+      "answer": "((g - h) / i)"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "a b c * +",
+      "answer": "+ a * b c"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "d e f + *",
+      "answer": "* d + e f"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "g h - i /",
+      "answer": "/ - g h i"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "+ a * b c",
+      "answer": "(a + (b * c))"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "* d + e f",
+      "answer": "(d * (e + f))"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "/ - g h i",
+      "answer": "((g - h) / i)"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "+ a * b c",
+      "answer": "a b c * +"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "* d + e f",
+      "answer": "d e f + *"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "/ - g h i",
+      "answer": "g h - i /"
+    }
+  ]
+}

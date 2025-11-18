@@ -1,0 +1,94 @@
+{
+  "medium_questions": [
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "a * ( b + c - d )",
+      "answer": "a b c d - + *"
+    },
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "e / ( f * g + h )",
+      "answer": "e f g * h + /"
+    },
+    {
+      "type": "infix_to_postfix",
+      "initial_expression": "( i - j ) * k / ( l + m )",
+      "answer": "i j - k * l m + /"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "a * ( b + c - d )",
+      "answer": "* a + b - c d"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "e / ( f * g + h )",
+      "answer": "/ e + * f g h"
+    },
+    {
+      "type": "infix_to_prefix",
+      "initial_expression": "( i - j ) * k / ( l + m )",
+      "answer": "/ * - i j k + l m"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "a b c d - + *",
+      "answer": "(a * (b + (c - d)))"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "e f g * h + /",
+      "answer": "(e / ((f * g) + h))"
+    },
+    {
+      "type": "postfix_to_infix",
+      "initial_expression": "i j - k * l m + /",
+      "answer": "((i - j) * k / (l + m))"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "a b c d - + *",
+      "answer": "* a + b - c d"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "e f g * h + /",
+      "answer": "/ e + * f g h"
+    },
+    {
+      "type": "postfix_to_prefix",
+      "initial_expression": "i j - k * l m + /",
+      "answer": "/ * - i j k + l m"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "* a + b - c d",
+      "answer": "(a * (b + (c - d)))"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "/ e + * f g h",
+      "answer": "(e / ((f * g) + h))"
+    },
+    {
+      "type": "prefix_to_infix",
+      "initial_expression": "/ * - i j k + l m",
+      "answer": "((i - j) * k / (l + m))"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "* a + b - c d",
+      "answer": "a b c d - + *"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "/ e + * f g h",
+      "answer": "e f g * h + /"
+    },
+    {
+      "type": "prefix_to_postfix",
+      "initial_expression": "/ * - i j k + l m",
+      "answer": "i j - k * l m + /"
+    }
+  ]
+}
